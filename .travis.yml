@@ -1,5 +1,6 @@
 language: cpp
 
+<<<<<<< HEAD
 script:   
 - cmake -H. -B_build
 - cmake --build _build
@@ -9,3 +10,8 @@ services:
   - docker
 script:
   - docker build -t logger .
+=======
+script:
+- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
+- cmake --build _build
+>>>>>>> 45730a3c6bd4887138f56be01f0cabaacee70bfd

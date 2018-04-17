@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/demo_main.dir/source/main.cpp.o  -o demo_main -rdynamic libdemo.a 

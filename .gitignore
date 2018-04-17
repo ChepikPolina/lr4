@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 *build*/
 *install*/
+>>>>>>> 45730a3c6bd4887138f56be01f0cabaacee70bfd
 *.swp
 .idea/

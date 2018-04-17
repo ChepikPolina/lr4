@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/print.hpp
+string
+-
+fstream
+-
+iostream
+-
+
+/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/source/print.cpp
+print.hpp
+-
+

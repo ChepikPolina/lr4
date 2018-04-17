@@ -1,0 +1,22 @@
+Start testing: Apr 17 02:18 MSK
+----------------------------------------------------------
+1/1 Testing: check
+1/1 Test: check
+Command: "/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build/check" "-s" "-r" "compact" "--use-colour" "yes"
+Directory: /home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build
+"check" start time: Apr 17 02:18 MSK
+Output:
+----------------------------------------------------------
+[0;37m/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/test/test2.cpp:7:[0m[1;32m passed[0m: result == "Kate"[0;37m for: [0m"Kate" == "Kate"
+[0;37m/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/test/test1.cpp:7:[0m[1;31m failed[0m: result == ""[0;37m for: [0m"Kate" == ""
+[1;31mFailed 1 test case, failed 1 assertion.[0m
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"check" end time: Apr 17 02:18 MSK
+"check" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 17 02:18 MSK

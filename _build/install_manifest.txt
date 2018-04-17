@@ -1,0 +1,5 @@
+/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build/_CPack_Packages/Linux/TGZ/demo-0.1.1-Linux/lib/libdemo.a
+/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build/_CPack_Packages/Linux/TGZ/demo-0.1.1-Linux/include/demo.hpp
+/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build/_CPack_Packages/Linux/TGZ/demo-0.1.1-Linux/include/print.hpp
+/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build/_CPack_Packages/Linux/TGZ/demo-0.1.1-Linux/cmake/demo-config.cmake
+/home/geminishkv_dev/geminishkv/workspace/projects/rk2/rk2_v2/lr4/_build/_CPack_Packages/Linux/TGZ/demo-0.1.1-Linux/cmake/demo-config-noconfig.cmake

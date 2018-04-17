@@ -1,0 +1,41 @@
+\hypertarget{print_8hpp}{}\section{include/print.hpp File Reference}
+\label{print_8hpp}\index{include/print.\+hpp@{include/print.\+hpp}}
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+Include dependency graph for print.\+hpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{print_8hpp_ae12fd32fb711d3e888d4cd8a65974c65}{print} (const std\+::string \&text, std\+::ostream \&out=std\+::cout)
+\begin{DoxyCompactList}\small\item\em first printf construction \end{DoxyCompactList}\item 
+void \hyperlink{print_8hpp_a88a4a55e7c5f7356f8a1fdcfbfbd1ae9}{print} (const std\+::string \&text, std\+::ofstream \&out)
+\begin{DoxyCompactList}\small\item\em second print construction \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{print.\+hpp@{print.\+hpp}!print@{print}}
+\index{print@{print}!print.\+hpp@{print.\+hpp}}
+\subsubsection[{\texorpdfstring{print(const std\+::string \&text, std\+::ostream \&out=std\+::cout)}{print(const std::string &text, std::ostream &out=std::cout)}}]{\setlength{\rightskip}{0pt plus 5cm}void print (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{text, }
+\item[{std\+::ostream \&}]{out = {\ttfamily std\+:\+:cout}}
+\end{DoxyParamCaption}
+)}\hypertarget{print_8hpp_ae12fd32fb711d3e888d4cd8a65974c65}{}\label{print_8hpp_ae12fd32fb711d3e888d4cd8a65974c65}
+
+
+first printf construction 
+
+\index{print.\+hpp@{print.\+hpp}!print@{print}}
+\index{print@{print}!print.\+hpp@{print.\+hpp}}
+\subsubsection[{\texorpdfstring{print(const std\+::string \&text, std\+::ofstream \&out)}{print(const std::string &text, std::ofstream &out)}}]{\setlength{\rightskip}{0pt plus 5cm}void print (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{text, }
+\item[{std\+::ofstream \&}]{out}
+\end{DoxyParamCaption}
+)}\hypertarget{print_8hpp_a88a4a55e7c5f7356f8a1fdcfbfbd1ae9}{}\label{print_8hpp_a88a4a55e7c5f7356f8a1fdcfbfbd1ae9}
+
+
+second print construction 
+
