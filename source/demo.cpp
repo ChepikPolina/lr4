@@ -8,19 +8,17 @@
 /*!
 	Function that takes your NAME
 */
-const char* getenv_var() {
-	return std::getenv("NAME");
+const char* getenv_var( char* argv[]) {
+	return std::getenv(*(argv + 1));
 }
 
 /*!
 	Print function, that displayes your NAME
 */
-void printenv_var() {
-	if(const char* env_p = getenv_var()) {
-        	std::cout << "Your NAME is: " << env_p << std::endl;
-	}
-	else{
-		std::cerr << "NO EN.VAR: NAME\n";	
-	}
+void printenv_var(char* argv[]) {
+	std::string val = std::getenv(*(argv + 1));
+	std::cout << "Value of "<< *(argv + 1) << " is: " << val << std::endl;
+	
 }
 
+	

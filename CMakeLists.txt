@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.0)
-<<<<<<< HEAD
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -78,4 +77,3 @@ option(BUILD_TESTS "Build tests" ON)
 project(main)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(demo sources/main.cpp)
->>>>>>> 45730a3c6bd4887138f56be01f0cabaacee70bfd

@@ -136,9 +136,6 @@
 │           └── hunter.cmake
 ├── CMakeLists.txt
 ├── CPackConfig.cmake
-├── demo.a
-├── demo_main
-├── demo.o
 ├── DESCRIPTION
 ├── Dockerfile
 ├── docs
@@ -224,8 +221,6 @@
 │       ├── print_8hpp.tex.tmp
 │       ├── README_8md.tex
 │       └── refman.tex
-├── example2
-├── example2.o
 ├── examples
 │   └── example2.cpp
 ├── include
@@ -242,11 +237,6 @@
 ├── LICENSE
 ├── logs
 │   └── log.txt
-├── main.a
-├── main_demo2
-├── main.o
-├── print.a
-├── print.o
 ├── README.md
 ├── source
 │   ├── demo.cpp
@@ -257,6 +247,4 @@
     ├── main.cpp
     ├── test1.cpp
     └── test2.cpp
-
 44 directories, 214 files
-
