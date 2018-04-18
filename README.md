@@ -26,11 +26,7 @@ $ git push origin master
 $ _build/check -s -r compact - smalldesccript
 $ cmake --build _build --target test -- ARGS=--verbose - alldescript
 ```
-interprice 4doxygen:
-```ShellSession
-$ cat docs/doxygen.conf | less
-```
-Init docker:
+- Init docker:
 ```ShellSession
 $ docker build -t logger .
 $ mkdir logs
